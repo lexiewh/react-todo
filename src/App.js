@@ -62,3 +62,7 @@ export default class App extends React.Component {
 //    constructor
 //    - to get the last version of state use setState and a function with
 //    prevState
+// - componentDidMount() -> GET the data I need to be displayed
+// - shouldComponentUpdate() -> way to decide if a component should update or not
+// - componentWillUnmount() -> cleanup, remove event listeners
+// - conditional rendering: load something on the screen if this is true
